@@ -1,0 +1,16 @@
+<!--Fragment pour les imports de librairies js-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8"/>
+</head>
+
+<div th:fragment="jslibs" th:remove="tag">
+	<script th:src="@{/scripts/jquery-1.7.1.min.js}" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script th:src="@{/scripts/poc-springboot-web.js}"></script>
+    
+</div>
+
+</html>

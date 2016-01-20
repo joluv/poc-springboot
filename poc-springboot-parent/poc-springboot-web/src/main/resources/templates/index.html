@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout">
+
+<head>
+<meta charset="utf-8" />
+</head>
+
+<div layout:fragment="content">
+	<div class="page-header">
+		<h1>Accueil</h1>
+	</div>
+	<div class="row">
+		<p th:text="#{landing.page.title}"></p>
+		<p>Accéder au <a th:href="@{/step1}">formulaire</a>.</p>
+	</div>
+</div>
+
+</html>

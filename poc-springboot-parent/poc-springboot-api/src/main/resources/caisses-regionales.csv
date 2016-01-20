@@ -1,0 +1,102 @@
+﻿Nº;Département;Région;Caisse régionnale
+01;Ain;Rhône-Alpes;Centre-est
+02;Aisne;Picardie;Nord Est
+03;Allier;Auvergne;Centre France
+04;Alpes-de-Haute-Provence;Provence-Alpes-Côte d'Azur;Provence Côte d'Azur
+05;Hautes-Alpes;Provence-Alpes-Côte d'Azur;Alpes Provence
+06;Alpes-Maritimes;Provence-Alpes-Côte d'Azur;Provence Côte d'Azur
+07;Ardèche;Rhône-Alpes;Sud Rhône Alpes
+08;Ardennes;Champagne-Ardenne;Nord Est
+09;Ariège;Midi-Pyrénées;Sud Méditerranée
+10;Aube;Champagne-Ardenne;Champagne-Bourgogne
+11;Aude;Languedoc-Roussillon;Languedoc
+12;Aveyron;Midi-Pyrénées;Nord Midi Pyrénées
+13;Bouches-du-Rhône;Provence-Alpes-Côte d'Azur;Alpes Provence
+14;Calvados;Basse-Normandie;Normandie
+15;Cantal;Auvergne;Centre France
+16;Charente;Poitou-Charentes;Charente-Périgord
+17;Charente-Maritime;Poitou-Charentes;Charente-Maritime Deux-Sèvres
+18;Cher;Centre-Val de Loire;Centre Loire
+19;Corrèze;Limousin;Centre France
+21;Côte-d'Or;Bourgogne;Champagne-Bourgogne
+22;Côtes-d'Armor;Bretagne;Côtes d'Armor
+23;Creuse;Limousin;Centre France
+24;Dordogne;Aquitaine;Charente-Périgord
+25;Doubs;Franche-Comté;Franche-Comté
+26;Drôme;Rhône-Alpes;Sud Rhône Alpes
+27;Eure;Haute-Normandie;Normandie-Seine
+28;Eure-et-Loir;Centre-Val de Loire;Val de France
+29;Finistère;Bretagne;Finistère
+30;Gard;Languedoc-Roussillon;Languedoc
+31;Haute-Garonne;Midi-Pyrénées;Toulouse 31
+32;Gers;Midi-Pyrénées;Pyrénées Gascogne
+33;Gironde;Aquitaine;Aquitaine
+34;Hérault;Languedoc-Roussillon;Languedoc
+35;Ille-et-Vilaine;Bretagne;Ille-et-Vilaine
+36;Indre;Centre-Val de Loire;Centre Ouest
+37;Indre-et-Loire;Centre-Val de Loire;Touraine et Poitou
+38;Isère;Rhône-Alpes;Sud Rhône Alpes
+39;Jura;Franche-Comté;Franche-Comté
+40;Landes;Aquitaine;Aquitaine
+41;Loir-et-Cher;Centre-Val de Loire;Val de France
+42;Loire;Rhône-Alpes;Loire Haute-Loire
+43;Haute-Loire;Auvergne;Loire Haute-Loire
+44;Loire-Atlantique;Pays de la Loire;Atlantique Vendée
+45;Loiret;Centre-Val de Loire;Centre Loire
+46;Lot;Midi-Pyrénées;Nord Midi Pyrénées
+47;Lot-et-Garonne;Aquitaine;Aquitaine
+48;Lozère;Languedoc-Roussillon;Languedoc
+49;Maine-et-Loire;Pays de la Loire;Anjou et Maine
+50;Manche;Basse-Normandie;Normandie
+51;Marne;Champagne-Ardenne;Nord Est
+52;Haute-Marne;Champagne-Ardenne;Champagne-Bourgogne
+53;Mayenne;Pays de la Loire;Anjou et Maine
+54;Meurthe-et-Moselle;Lorraine;Lorraine
+55;Meuse;Lorraine;Lorraine
+56;Morbihan;Bretagne;Morbihan
+57;Moselle;Lorraine;Lorraine
+58;Nièvre;Bourgogne;Centre Loire
+59;Nord;Nord-Pas-de-Calais;Nord de France
+60;Oise;Picardie;Brie Picardie
+61;Orne;Basse-Normandie;Normandie
+62;Pas-de-Calais;Nord-Pas-de-Calais;Nord de France
+63;Puy-de-Dôme;Auvergne;Centre France
+64;Pyrénées-Atlantiques;Aquitaine;Pyrénées Gascogne
+65;Hautes-Pyrénées;Midi-Pyrénées;Pyrénées Gascogne
+66;Pyrénées-Orientales;Languedoc-Roussillon;Sud Méditerranée
+67;Bas-Rhin;Alsace;Alsace Vosges
+68;Haut-Rhin;Alsace;Alsace Vosges
+69;Rhône;Rhône-Alpes;Centre-est
+70;Haute-Saône;Franche-Comté;Franche-Comté
+71;Saône-et-Loire;Bourgogne;Centre-est
+72;Sarthe;Pays de la Loire;Anjou et Maine
+73;Savoie;Rhône-Alpes;Savoie
+74;Haute-Savoie;Rhône-Alpes;Savoie
+75;Paris;Île-de-France;Île-de-France
+76;Seine-Maritime;Haute-Normandie;Normandie-Seine
+77;Seine-et-Marne;Île-de-France;Brie Picardie
+78;Yvelines;Île-de-France;Île-de-France
+79;Deux-Sèvres;Poitou-Charentes;Charente-Maritime Deux-Sèvres
+80;Somme;Picardie;Brie Picardie
+81;Tarn;Midi-Pyrénées;Nord Midi Pyrénées
+82;Tarn-et-Garonne;Midi-Pyrénées;Nord Midi Pyrénées
+83;Var;Provence-Alpes-Côte d'Azur;Provence Côte d'Azur
+84;Vaucluse;Provence-Alpes-Côte d'Azur;Alpes Provence
+85;Vendée;Pays de la Loire;Atlantique Vendée
+86;Vienne;Poitou-Charentes;Touraine et Poitou
+87;Haute-Vienne;Limousin;Centre Ouest
+88;Vosges;Lorraine;Alsace Vosges
+89;Yonne;Bourgogne;Champagne-Bourgogne
+90;Territoire de Belfort;Franche-Comté;Franche-Comté
+91;Essonne;Île-de-France;Île-de-France
+92;Hauts-de-Seine;Île-de-France;Île-de-France
+93;Seine-Saint-Denis;Île-de-France;Île-de-France
+94;Val-de-Marne;Île-de-France;Île-de-France
+95;Val-d'Oise;Île-de-France;Île-de-France
+971;Guadeloupe;Guadeloupe;Guadeloupe
+972;Martinique;Martinique;Martinique et Guyane
+973;Guyane;Guyane;Martinique et Guyane
+974;La Réunion;La Réunion;La Réunion
+976;Mayotte;Mayotte;La Réunion
+2A;Corse-du-Sud;Corse;Corse
+2B;Haute-Corse;Corse;Corse

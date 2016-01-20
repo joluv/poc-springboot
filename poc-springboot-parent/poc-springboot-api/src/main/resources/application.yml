@@ -1,0 +1,28 @@
+env:
+  caissesRegFileLocation: D:\Projets\poc-springboot\workspace\poc-springboot-parent\poc-springboot-api\src\main\resources\caisses-regionales.csv
+  tarificationFileLocation: D:\Projets\poc-springboot\workspace\poc-springboot-parent\poc-springboot-api\src\main\resources\tarification.csv
+  calculetteLoWs:
+    uri: http://swinloweb01.ptx.fr.sopra:9080/ELO-webbusiness/LoanCalculationWsPort
+    #uri: http://localhost:7777
+    targetNameSpace: http://loancalculation.published.v1_3_0.financialplan.ws.xchannel.xc.sopra.com
+    params: # Parametres d'appel du webService
+      applicationId: ELO
+      companyId: '001'
+      language: fr
+      userEmail: xc@xc.fr 
+      userFirstname: TEST 
+      userId: CC001 
+      userLastname: xc
+      cdfonc: ECHE
+      inedta: B 
+      mdcalteg_12: 3 
+      mdcaltaea_12: 3 
+      cdbscal_20: 0
+      rfpalier_20: 99 
+      inasstaea_20: 1 
+      inassteg_20: N 
+      peint_18: 1 
+
+spring:
+  thymeleaf:
+    cache: false

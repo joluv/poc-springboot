@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layout">
+
+<head>
+<meta charset="utf-8" />
+</head>
+
+
+
+<div layout:fragment="content">
+	
+	<h1>Simulateur</h1>
+
+	<div>
+		<label>Montant de l'emprunt :</label> <input type="text"
+			name="montant" id="montant"></input>
+	</div>
+
+	<div>
+		<label>Durée de l'emprunt :</label> <input type="text" name="duree" id="duree"></input>
+	</div>
+
+	<div>
+		<input type="hidden" id="simulations" th:value="${simulations}" ></input>
+		<input type="button" id="valider" value="Valider" ></input>
+	</div>
+
+</div>
+</html>

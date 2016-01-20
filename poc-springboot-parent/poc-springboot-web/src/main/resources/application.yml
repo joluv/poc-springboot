@@ -1,0 +1,12 @@
+# Configuration applicative
+env:
+  api:
+    urlBase: http://localhost:7080/poc-springboot-api
+    urlPersonne: http://localhost:7080/poc-springboot-api/personne
+    urlCaissesRegionales : http://localhost:7080/poc-springboot-api/caissesRegionales/caisseByCodePostal
+    urlSimulations : http://localhost:7080/poc-springboot-api/simulation/list
+    
+# Configuration Spring
+spring:
+  thymeleaf:
+    cache: false

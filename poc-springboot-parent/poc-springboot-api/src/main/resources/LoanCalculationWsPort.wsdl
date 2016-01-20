@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://loancalculation.published.v1_3_0.financialplan.ws.xchannel.xc.sopra.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="LoanCalculation" targetNamespace="http://loancalculation.published.v1_3_0.financialplan.ws.xchannel.xc.sopra.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://loancalculation.published.v1_3_0.financialplan.ws.xchannel.xc.sopra.com/" elementFormDefault="unqualified" targetNamespace="http://loancalculation.published.v1_3_0.financialplan.ws.xchannel.xc.sopra.com/" version="1.0">
+
+  <xs:element name="callSmk000" type="tns:callSmk000"/>
+
+  <xs:element name="callSmk000Response" type="tns:callSmk000Response"/>
+
+  <xs:complexType name="callSmk000">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:serviceSessionDto"/>
+      <xs:element minOccurs="0" name="arg1" type="tns:lcsSmk000DataInDto"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="serviceSessionDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationId" type="xs:string"/>
+      <xs:element name="attributeList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="entry">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" name="key" type="xs:string"/>
+                  <xs:element minOccurs="0" name="value" type="xs:string"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="companyId" type="xs:string"/>
+      <xs:element minOccurs="0" name="language" type="xs:string"/>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string"/>
+      <xs:element minOccurs="0" name="treatmentDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="userEmail" type="xs:string"/>
+      <xs:element minOccurs="0" name="userFirstname" type="xs:string"/>
+      <xs:element minOccurs="0" name="userId" type="xs:string"/>
+      <xs:element minOccurs="0" name="userLastname" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="userProfileGroupList" nillable="true" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="userProfileList" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsSmk000DataInDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ajustech" type="xs:string"/>
+      <xs:element minOccurs="0" name="cdfonc" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="daccp" nillable="true" type="tns:lcsDaccpDto"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="dassp" nillable="true" type="tns:lcsDasspDto"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="dpalamnn" nillable="true" type="tns:lcsDpalamnnDto"/>
+      <xs:element minOccurs="0" name="dpalfr" type="tns:lcsDpalfrDto"/>
+      <xs:element minOccurs="0" name="dtech_12" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="dtreal_12" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="duree_12" type="xs:int"/>
+      <xs:element minOccurs="0" name="incje_12" type="xs:string"/>
+      <xs:element minOccurs="0" name="inedta" type="xs:string"/>
+      <xs:element minOccurs="0" name="mdcaltaea_12" type="xs:string"/>
+      <xs:element minOccurs="0" name="mdcalteg_12" type="xs:string"/>
+      <xs:element minOccurs="0" name="nominal_12" type="xs:double"/>
+      <xs:element minOccurs="0" name="teg_12" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsDaccpDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cdbscal_19" type="xs:string"/>
+      <xs:element minOccurs="0" name="cddtpct_19" type="xs:string"/>
+      <xs:element minOccurs="0" name="inaccteg_19" type="xs:string"/>
+      <xs:element minOccurs="0" name="incapit_19" type="xs:string"/>
+      <xs:element minOccurs="0" name="inincr_19" type="xs:string"/>
+      <xs:element minOccurs="0" name="mtfixe_19" type="xs:double"/>
+      <xs:element minOccurs="0" name="rfpalier_19" type="xs:string"/>
+      <xs:element minOccurs="0" name="txpercep_19" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsDasspDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cdbscal_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="cddtpct_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="dtfpct_20" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="inasstaea_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="inassteg_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="incapit_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="inincr_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="mtfixe_20" type="xs:double"/>
+      <xs:element minOccurs="0" name="rfpalier_20" type="xs:string"/>
+      <xs:element minOccurs="0" name="txpercep_20" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsDpalamnnDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="capamort_18" type="xs:double"/>
+      <xs:element minOccurs="0" name="cdcalcr_18" type="xs:string"/>
+      <xs:element minOccurs="0" name="cdjexact_77" type="xs:string"/>
+      <xs:element minOccurs="0" name="cdmcaltx_77" type="xs:string"/>
+      <xs:element minOccurs="0" name="cdtypint_18" type="xs:string"/>
+      <xs:element minOccurs="0" name="constrb_18" type="xs:double"/>
+      <xs:element minOccurs="0" name="incapfp_18" type="xs:string"/>
+      <xs:element minOccurs="0" name="incapit_18" type="xs:string"/>
+      <xs:element minOccurs="0" name="incje_77" type="xs:string"/>
+      <xs:element name="nbtermp_18" type="xs:int"/>
+      <xs:element name="peint_18" type="xs:int"/>
+      <xs:element minOccurs="0" name="txint_77" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsDpalfrDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cdjexact_77" type="xs:string"/>
+      <xs:element minOccurs="0" name="cdmcaltx_77" type="xs:string"/>
+      <xs:element name="dureefr_18" type="xs:int"/>
+      <xs:element minOccurs="0" name="incapfp_18" type="xs:string"/>
+      <xs:element minOccurs="0" name="incapit_18" type="xs:string"/>
+      <xs:element minOccurs="0" name="incje_77" type="xs:string"/>
+      <xs:element name="peint_18" type="xs:int"/>
+      <xs:element name="txint_77" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="callSmk000Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:lcsSmk000ResultDto"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsSmk000ResultDto">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="errors" nillable="true" type="tns:errorMessageDto"/>
+      <xs:element minOccurs="0" name="lcsSmk000DataOutDto" type="tns:lcsSmk000DataOutDto"/>
+      <xs:element minOccurs="0" name="returnCode" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="errorMessageDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorCode" type="xs:string"/>
+      <xs:element name="errorData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="entry">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" name="key" type="xs:anyType"/>
+                  <xs:element minOccurs="0" name="value" type="xs:string"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="errorMessage" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsSmk000DataOutDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cout_total" type="xs:double"/>
+      <xs:element minOccurs="0" name="duree" type="xs:int"/>
+      <xs:element minOccurs="0" name="lcsTABDto" type="tns:lcsTABDto"/>
+      <xs:element minOccurs="0" name="mtinter" type="xs:double"/>
+      <xs:element minOccurs="0" name="nominal" type="xs:double"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="ta" nillable="true" type="tns:lcsTADto"/>
+      <xs:element minOccurs="0" name="taea" type="xs:double"/>
+      <xs:element minOccurs="0" name="teg" type="xs:double"/>
+      <xs:element minOccurs="0" name="total_acc" type="xs:double"/>
+      <xs:element minOccurs="0" name="total_ass" type="xs:double"/>
+      <xs:element minOccurs="0" name="total_ass_taea" type="xs:double"/>
+      <xs:element minOccurs="0" name="txint" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsTABDto">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="mtacc" nillable="true" type="xs:double"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="mtass" nillable="true" type="xs:double"/>
+      <xs:element minOccurs="0" name="mtech" type="xs:double"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="paliers" nillable="true" type="tns:lcsTAPaliersDto"/>
+      <xs:element minOccurs="0" name="taea" type="xs:double"/>
+      <xs:element minOccurs="0" name="teg" type="xs:double"/>
+      <xs:element minOccurs="0" name="totaccc" type="xs:double"/>
+      <xs:element minOccurs="0" name="totassc" type="xs:double"/>
+      <xs:element minOccurs="0" name="totassc_2" type="xs:double"/>
+      <xs:element minOccurs="0" name="totintc" type="xs:double"/>
+      <xs:element minOccurs="0" name="totmech" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsTAPaliersDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="mtacc" type="xs:double"/>
+      <xs:element minOccurs="0" name="mtass" type="xs:double"/>
+      <xs:element minOccurs="0" name="mtki" type="xs:double"/>
+      <xs:element minOccurs="0" name="nbmois" type="xs:int"/>
+      <xs:element minOccurs="0" name="nopal" type="xs:int"/>
+      <xs:element minOccurs="0" name="nopech" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lcsTADto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accessoires" type="xs:double"/>
+      <xs:element minOccurs="0" name="assurances" type="xs:double"/>
+      <xs:element minOccurs="0" name="capital" type="xs:double"/>
+      <xs:element name="cdterm" type="xs:int"/>
+      <xs:element minOccurs="0" name="crdu" type="xs:double"/>
+      <xs:element minOccurs="0" name="dtech" type="xs:dateTime"/>
+      <xs:element name="echeance" type="xs:double"/>
+      <xs:element minOccurs="0" name="interets" type="xs:double"/>
+      <xs:element minOccurs="0" name="somme_capital" type="xs:double"/>
+      <xs:element minOccurs="0" name="somme_crd" type="xs:double"/>
+      <xs:element minOccurs="0" name="stdu" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="callSmk000">
+    <wsdl:part element="tns:callSmk000" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="callSmk000Response">
+    <wsdl:part element="tns:callSmk000Response" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="LoanCalculationWs">
+    <wsdl:operation name="callSmk000">
+      <wsdl:input message="tns:callSmk000" name="callSmk000">
+    </wsdl:input>
+      <wsdl:output message="tns:callSmk000Response" name="callSmk000Response">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LoanCalculationSoapBinding" type="tns:LoanCalculationWs">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="callSmk000">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="callSmk000">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="callSmk000Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LoanCalculation">
+    <wsdl:port binding="tns:LoanCalculationSoapBinding" name="LoanCalculationWsPort">
+      <soap:address location="http://localhost:9080/ELO-webbusiness/LoanCalculationWsPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

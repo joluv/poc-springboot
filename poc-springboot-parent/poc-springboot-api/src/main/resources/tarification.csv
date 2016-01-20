@@ -1,0 +1,4 @@
+﻿Id Caisse régionale;id produit;taux credit;taux assurance;mnt min;mnt max;date de validité;date de fin validité;durée min;durée max;frais;mnt affiché def,pas mnt;pas durée
+1;1;3,4;0,36;2000;5000;10112015;10112016;12;72;520;15000;1000;12
+2;1;3,8;0,36;2000;50000;10112015;10112016;12;72;620;15000;1000;12
+56;1;3,4;0,4;2000;40000;10112015;10112016;12;72;520;20000;1000;12
