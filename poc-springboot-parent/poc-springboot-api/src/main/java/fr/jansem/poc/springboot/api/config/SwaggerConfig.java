@@ -37,8 +37,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "NewCarmin API",
-                "NewCarmin API",
+                "POC SpringBoot API",
+                "POC SpringBoot API",
                 "",
                 "",
                 "",

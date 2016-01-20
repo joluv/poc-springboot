@@ -33,33 +33,6 @@
 		<commons-lang.version>2.6</commons-lang.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>central</id>
-			<name>central</name>
-			<url>http://pdtinteg.ptx.fr.sopra/artifactory/repo</url>
-			<layout>default</layout>
-		</repository>
-		<repository>
-			<id>newcarmin_rw_releases</id>
-			<name>newcarmin_rw_releases</name>
-			<url>http://pdtinteg.ptx.fr.sopra/artifactory/prj-poc-springboot-releases</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<layout>default</layout>
-		</repository>
-		<repository>
-			<id>newcarmin_rw_snapshots</id>
-			<name>newcarmin_rw_snapshots</name>
-			<url>http://pdtinteg.ptx.fr.sopra/artifactory/prj-poc-springboot-snapshots</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<layout>default</layout>
-		</repository>
-	</repositories>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
