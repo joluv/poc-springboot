@@ -33,6 +33,23 @@
 		<commons-lang.version>2.6</commons-lang.version>
 	</properties>
 
+	<scm>
+		<url>https://github.com/rjansem/poc-springboot</url>
+		<connection>scm:git:https://github.com/rjansem/poc-springboot.git</connection>
+		<developerConnection>scm:git:https://github.com/rjansem/poc-springboot.git</developerConnection>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>NOBC public libraries</name>
+			<url>http://localhost:8081/artifactory/libs-release</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
